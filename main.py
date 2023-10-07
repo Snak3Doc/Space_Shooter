@@ -23,7 +23,7 @@ SPRITE_HEIGHT = 40
 
 FPS = 60
 
-POWER_RATE = 2
+POWER_RATE = 15
 power_timer = POWER_RATE
 
 WORK_DIR = pathlib.Path.cwd()
