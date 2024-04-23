@@ -190,7 +190,7 @@ class HPPowerSprite(BaseSprite):
                 if player.lives < 4:
                     player.lives += 1
         else:
-            pu_sprite_group.remove()
+            pu_sprite_group.remove(self)
             del self
 
 
@@ -202,7 +202,7 @@ class FRPowerSprite(BaseSprite):
                 del self
                 player.FIRE_RATE = 0.2
         else:
-            pu_sprite_group.remove()
+            pu_sprite_group.remove(self)
             del self
 
 
